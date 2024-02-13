@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server-dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Bi3-W-echri/e-app/issues"
   },
-  "homepage": "https://github.com/Bi3-W-echri/e-app#readme"
+  "homepage": "https://github.com/Bi3-W-echri/e-app#readme",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
