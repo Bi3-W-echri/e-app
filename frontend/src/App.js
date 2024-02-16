@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+export const UserContext = createContext();
+const App = () => {
+ 
   return (
-    <div >
-     hello 
-    </div>
+  <div>
+
+  </div>
   );
-}
+};
 
 export default App;
