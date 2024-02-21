@@ -1,10 +1,10 @@
 import React from 'react';
-
-export const UserContext = createContext();
+import Couter from './component/Couter';
 const App = () => {
  
   return (
   <div>
+    <Couter/>
 
   </div>
   );

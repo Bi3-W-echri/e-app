@@ -1,8 +1,8 @@
 const appRouter =require("express").Router();
-const {gett}= require("../controllers/user.js")
+const {singUp}= require("../controllers/user.js")
 
 
-appRouter.get('/get',gett)
+appRouter.post('/singup',singUp)
 
 
 

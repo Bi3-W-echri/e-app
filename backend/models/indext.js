@@ -2,7 +2,7 @@ const { Sequelize, DataTypes } = require("sequelize");
 const conf=require('../config.js')
 
 
-const sequelize = new Sequelize(conf.database,conf.username,conf.password,
+const sequelize = new Sequelize(conf.database,conf.name,conf.Password,
   {
     HOST: "localhost",
     dialect: "mysql",
